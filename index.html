@@ -23,30 +23,96 @@
       integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
       crossorigin="anonymous"
     />
+    <!--bootstrap icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+
     <!--main css-->
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <section class="container-fluid">
+    <!--header superior-->
+    <section class="container">
       <div class="row">
         <div class="col text-center py-2">
           <p>🚚 Envío GRATIS en compras superiores a $90.000</p>
         </div>
       </div>
     </section>
-    <header class="container">
-      <div class="row">
-        <div class="col">
-          <img src="" alt="" />
-        </div>
-        <div class="col">
-          <nav></nav>
-        </div>
-        <div class="col">
-          <div></div>
+
+    <!--header-->
+    <header class="container-fluid">
+      <div class="container">
+        <div class="row justify-content-between align-items-center pt-2">
+          <div class="col">
+            <a href="#">
+              <img src="assets/img/logo.svg" alt="logo-hellooow" class="logo" />
+            </a>
+          </div>
+          <div class="col d-flex justify-content-center">
+            <nav class="menu">
+              <ul class="d-inline-flex">
+                <li>
+                  <a aria-current="page" href="#">Inicio</a>
+                </li>
+                <li>
+                  <a href="#">Productos</a>
+                </li>
+                <li>
+                  <a href="#">Contacto</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col d-flex justify-content-end gap-4 login">
+            <div
+              class="d-flex flex-column justify-content-center align-items-center"
+            >
+              <i class="bi bi-person icon"></i>
+              <p>Mi cuenta</p>
+            </div>
+            <div
+              class="d-flex flex-column justify-content-center align-items-center"
+            >
+              <i class="bi bi-cart3 icon"></i>
+              <p>Mi carrito</p>
+            </div>
+          </div>
         </div>
       </div>
     </header>
+
+    <!--hero-->
+    <section class="container-fluid hero">
+      <div class="container">
+        <div class="row justify-content-between py-5">
+          <div class="col d-flex flex-column izquierda py-5">
+            <div class="col d-flex flex-column gap-3 mb-5">
+              <h1 class="hero-title">
+                <span class="d-block">decorá tu hogar</span
+                ><span class="d-block hero-title-space">con alma felina</span>
+              </h1>
+
+              <p class="hero-subtitle">
+                Comprás con amor, ayudás con el corazón.
+              </p>
+              <p class="hero-p w-100">
+                Cada compra ayuda a un gato rescatado. Hacés que tu casa se vea
+                bien ... y su vida también.
+              </p>
+            </div>
+            <div class="col">
+              <button class="button-primary">Agregar</button>
+            </div>
+          </div>
+          <div class="col derecha">
+            <img src="assets/img/hero.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"

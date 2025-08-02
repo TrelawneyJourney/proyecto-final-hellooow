@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  margin: 0;
+  font-family: var(--primary-font);
+  color: var(--secondary);
+}
+:root {
+  --primary: #fef3c6;
+  --secondary: #404040;
+  --terciary: #35495e;
+  --primary-font: "Poppins", sans-serif;
+}

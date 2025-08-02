@@ -83,3 +83,24 @@ a {
   line-height: 22px;
   letter-spacing: -0.034px;
 }
+
+@media (max-width: 576px) {
+  .logo {
+    width: 200px;
+  }
+  .hero-title {
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 4.5px;
+  }
+  .hero-title-space {
+    letter-spacing: 7px;
+  }
+  .hero-subtitle {
+    font-size: 16px;
+    letter-spacing: 1.2px;
+  }
+  .hero-p {
+    font-size: 16px;
+  }
+}

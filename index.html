@@ -37,7 +37,7 @@
     <section class="container">
       <div class="row">
         <div class="col text-center py-2">
-          <p>🚚 Envío GRATIS en compras superiores a $90.000</p>
+          <p class="">🚚 Envío GRATIS en compras superiores a $90.000</p>
         </div>
       </div>
     </section>
@@ -46,27 +46,28 @@
     <header class="container-fluid">
       <div class="container">
         <div class="row justify-content-between align-items-center pt-2">
-          <div class="col">
+          <!--logo-->
+          <div class="col-12 col-md-4 text-center text-md-start mb-3 mb-md-0">
             <a href="#">
               <img src="assets/img/logo.svg" alt="logo-hellooow" class="logo" />
             </a>
           </div>
-          <div class="col d-flex justify-content-center">
-            <nav class="menu">
-              <ul class="d-inline-flex">
-                <li>
-                  <a aria-current="page" href="#">Inicio</a>
-                </li>
-                <li>
-                  <a href="#">Productos</a>
-                </li>
-                <li>
-                  <a href="#">Contacto</a>
-                </li>
+
+          <!--menu-->
+          <div class="col-12 col-md-4 mb-3 mb-md-0">
+            <nav class="menu d-flex justify-content-center">
+              <ul class="list-unstyled d-flex justify-content-center">
+                <li><a aria-current="page" href="#">Inicio</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Contacto</a></li>
               </ul>
             </nav>
           </div>
-          <div class="col d-flex justify-content-end gap-4 login">
+
+          <!--login-->
+          <div
+            class="d-none col-md-4 d-md-flex justify-content-end gap-4 login"
+          >
             <div
               class="d-flex flex-column justify-content-center align-items-center"
             >
@@ -87,9 +88,12 @@
     <!--hero-->
     <section class="container-fluid hero">
       <div class="container">
-        <div class="row justify-content-between py-5">
-          <div class="col d-flex flex-column izquierda py-5">
-            <div class="col d-flex flex-column gap-3 mb-5">
+        <div class="row justify-content-between py-2 py-md-5">
+          <!--hero left side-->
+          <div class="col-12 col-md-6 d-flex flex-column py-md-5">
+            <div
+              class="col d-flex flex-column align-items-center align-items-md-start gap-1 gap-md-3 mb-5"
+            >
               <h1 class="hero-title">
                 <span class="d-block">decorá tu hogar</span
                 ><span class="d-block hero-title-space">con alma felina</span>
@@ -98,17 +102,21 @@
               <p class="hero-subtitle">
                 Comprás con amor, ayudás con el corazón.
               </p>
-              <p class="hero-p w-100">
+              <p class="hero-p w-100 text-center text-md-start">
                 Cada compra ayuda a un gato rescatado. Hacés que tu casa se vea
                 bien ... y su vida también.
               </p>
             </div>
             <div class="col">
-              <button class="button-primary">Agregar</button>
+              <button class="button-primary">Ver productos</button>
             </div>
           </div>
-          <div class="col derecha">
-            <img src="assets/img/hero.png" alt="" />
+
+          <!--hero right side-->
+          <div class="col-12 col-md-6">
+            <div class="d-flex flex-column align-items-center">
+              <img src="assets/img/hero.png" alt="" class="" />
+            </div>
           </div>
         </div>
       </div>

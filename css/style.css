@@ -11,6 +11,9 @@
   --acent: #ffd230;
   --primary-font: "Poppins", sans-serif;
 }
+.backg-primary {
+  background-color: var(--primary);
+}
 p {
   margin: 0px;
 }
@@ -25,6 +28,7 @@ header {
 
 a {
   text-decoration: none;
+  color: var(--secondary);
 }
 
 .menu ul {
@@ -147,7 +151,12 @@ a {
   font-size: 16px;
   line-height: 18.988px;
 }
-
+/*categorias mas buscadas*/
+.categoria-titulo {
+  font-size: 28px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
 @media (max-width: 1200px) {
   .hero-title {
     font-size: 38px;

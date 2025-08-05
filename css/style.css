@@ -142,7 +142,7 @@ a {
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
-  line-height: 16px; /* 66.667% */
+  line-height: 16px;
   letter-spacing: 10px;
   text-transform: uppercase;
 }
@@ -152,10 +152,20 @@ a {
   line-height: 18.988px;
 }
 /*categorias mas buscadas*/
+.card-categoria {
+  transition: transform 0.3s ease;
+}
+.card-categoria:hover {
+  transform: translateY(-5px);
+}
 .categoria-titulo {
   font-size: 28px;
   text-transform: uppercase;
   letter-spacing: 5px;
+}
+/*para ellos*/
+.para-container {
+  height: 430px;
 }
 @media (max-width: 1200px) {
   .hero-title {

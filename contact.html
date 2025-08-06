@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="assets/img/cat-favicon.png"
+      type="image/x-icon"
+    />
+    <title>Hellooow</title>
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,300;1,400;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <!--bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <!--bootstrap icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+
+    <!--main css-->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!--header superior-->
+    <section class="container">
+      <div class="row">
+        <div class="col text-center py-2">
+          <p class="">🚚 Envío GRATIS en compras superiores a $90.000</p>
+        </div>
+      </div>
+    </section>
+
+    <!--header-->
+    <header class="container-fluid">
+      <div class="container">
+        <div class="row justify-content-between align-items-center pt-2">
+          <!--logo-->
+          <div class="col-12 col-md-4 text-center text-md-start mb-3 mb-md-0">
+            <a href="index.html">
+              <img src="assets/img/logo.svg" alt="logo-hellooow" class="logo" />
+            </a>
+          </div>
+
+          <!--menu-->
+          <div class="col-12 col-md-4 mb-3 mb-md-0">
+            <nav class="menu d-flex justify-content-center">
+              <ul class="list-unstyled d-flex justify-content-center">
+                <li>
+                  <a href="index.html">Inicio</a>
+                </li>
+                <li><a href="product.html">Productos</a></li>
+                <li><a href="#">Contacto</a></li>
+              </ul>
+            </nav>
+          </div>
+
+          <!--login-->
+          <div
+            class="d-none col-md-4 d-md-flex justify-content-end gap-4 login"
+          >
+            <div
+              class="d-flex flex-column justify-content-center align-items-center"
+            >
+              <i class="bi bi-person icon"></i>
+              <p>Mi cuenta</p>
+            </div>
+            <div
+              class="d-flex flex-column justify-content-center align-items-center"
+            >
+              <i class="bi bi-cart3 icon"></i>
+              <p>Mi carrito</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!--formulario-->
+    <section class="container my-5 news-section">
+      <!---->
+      <div class="row align-items-center">
+        <!--rigth side img-->
+        <div class="col-12 col-md-6 d-flex justify-content-center">
+          <img
+            src="assets/img/contact.webp"
+            alt=""
+            class="img-fluid news-img"
+          />
+        </div>
+        <!--left side ofertas-->
+        <div
+          class="col-12 col-md-6 d-flex flex-column align-items-center align-items-md-start gap-4 mb-4 mb-md-0"
+        >
+          <p class="news-titulo text-center text-md-end">contacto</p>
+          <!--input-->
+          <div class="w-100 d-flex flex-column align-items-md-start gap-4">
+            <form action="" class="w-100 gap-4">
+              <div class="mb-3">
+                <label for="name" class="form-label">Nombre</label>
+                <input
+                  type="text"
+                  placeholder="Nombre"
+                  class="form-control w-100 w-md-75"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input
+                  type="email"
+                  placeholder="Email"
+                  class="form-control w-100 w-md-75"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="phone" class="form-label">Telefono</label>
+                <input
+                  type="text"
+                  placeholder="Telefono"
+                  class="form-control w-100 w-md-75"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="messagge" class="form-label">Mensaje</label>
+                <textarea
+                  name="messagge"
+                  id=""
+                  placeholder="Escriba aquí su mensaje"
+                  class="form-control"
+                  rows="3"
+                ></textarea>
+              </div>
+            </form>
+
+            <button class="button button-primary">Enviar</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="container-fluid backg-primary">
+      <div class="container">
+        <div class="row flex-column align-items-center py-3">
+          <div class="col-12 d-flex justify-content-between align-items-center">
+            <div>
+              <a href="index.html">
+                <img
+                  src="assets/img/logo.svg"
+                  alt="logo Hellooow"
+                  class=""
+                  style="width: 180px"
+                />
+              </a>
+            </div>
+            <div class="menu">
+              <ul class="list-unstyled d-none d-md-flex justify-content-center">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="product.html">Productos</a></li>
+                <li><a href="#">Contacto</a></li>
+              </ul>
+            </div>
+          </div>
+          <!--copy & icons-->
+          <div class="col-12 d-flex justify-content-between align-items-center">
+            <p class="footer-copy">© Copyright hellooow - 2025</p>
+            <div class="d-flex pe-3 gap-4 footer-icon">
+              <i class="bi bi-facebook"></i>
+              <i class="bi bi-instagram"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

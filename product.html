@@ -89,29 +89,30 @@
 
     <section class="container">
       <div class="row">
-        <div class="col-12">
+        <div class="col-12 my-3">
           <nav aria-label="breadcrumb">
-            <ol class="breadcrumb">
+            <ol class="breadcrumb fs-7">
               <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
               <li class="breadcrumb-item active" aria-current="page">
                 Productos
               </li>
             </ol>
           </nav>
-          <p>productos</p>
+          <!--titulo-->
+          <p class="products-titulo">productos</p>
         </div>
       </div>
 
       <!--main-->
       <div class="row">
         <!--aside-->
-        <div class="col-3 d-flex flex-column border border-danger">
-          <p>Filtrar por</p>
+        <div class="col-3 d-flex flex-column gap-2 mb-3">
+          <p class="fs-5">Filtrar por</p>
           <!--categorias-->
-          <div class="por-categoria">
+          <div class="por-categoria ps-2">
             <p>por categoría</p>
             <!--checks-->
-            <div class="check-por">
+            <div class="check-por ps-4">
               <div class="form-check">
                 <input
                   class="form-check-input"
@@ -157,10 +158,10 @@
             </div>
           </div>
           <!--para ellos-->
-          <div class="por-ellos">
+          <div class="por-ellos ps-2">
             <p>para ellos</p>
             <!--checks-->
-            <div class="check-por">
+            <div class="check-por ps-4">
               <div class="form-check">
                 <input
                   class="form-check-input"
@@ -206,29 +207,79 @@
             </div>
           </div>
           <!--precio-->
-          <div class="por-precio">
+          <div class="por-precio ps-2">
             <p>por precio</p>
-            <div class="check-por">
+            <div class="check-por ps-4">
               <div class="input-group mb-2">
                 <input type="number" class="form-control" placeholder="de" />
                 <input type="number" class="form-control" placeholder="hasta" />
-                <button><i class="bi bi-arrow-right-short"></i></button>
+                <button class="button-precio">
+                  <i class="bi bi-arrow-right-short"></i>
+                </button>
               </div>
             </div>
           </div>
         </div>
         <!--end aside-->
-        <div class="col-9 d-flex flex-column border border-warning">
+        <!--productos-->
+        <div class="col-9 d-flex flex-column">
           <div class="d-flex justify-content-end">
             <i class="bi bi-sort-alpha-down"></i>
             <p>Ordenar</p>
           </div>
-          <!----->
-          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+          <!--row productos-->
+          <div
+            class="row row-cols-1 row-cols-sm-2 row-cols-md-4 my-2 my-md-4 ps-4"
+          >
             <div class="col">
               <div class="card-product">
                 <img
                   src="assets/img/products/product-1.webp"
+                  class="card-img-top img-fluid"
+                  alt="..."
+                />
+                <div class="card-product-body">
+                  <p class="card-categoria">decoración</p>
+                  <p class="card-titulo">jarrón gato</p>
+                  <p class="card-precio">$ 8.779</p>
+                  <button class="button button-terciary">Agregar</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card-product">
+                <img
+                  src="assets/img/products/product-2.webp"
+                  class="card-img-top img-fluid"
+                  alt="..."
+                />
+                <div class="card-product-body">
+                  <p class="card-categoria">decoración</p>
+                  <p class="card-titulo">alfombra gato</p>
+                  <p class="card-precio">$ 16.779</p>
+                  <button class="button button-terciary">Agregar</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card-product">
+                <img
+                  src="assets/img/products/product-3.webp"
+                  class="card-img-top img-fluid"
+                  alt="..."
+                />
+                <div class="card-product-body">
+                  <p class="card-categoria">baño</p>
+                  <p class="card-titulo">toalla de mano</p>
+                  <p class="card-precio">$ 6.000</p>
+                  <button class="button button-terciary">Agregar</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card-product">
+                <img
+                  src="assets/img/products/product-4.webp"
                   class="card-img-top img-fluid"
                   alt="..."
                 />
@@ -240,17 +291,22 @@
                 </div>
               </div>
             </div>
+          </div>
+          <!--row productos-->
+          <div
+            class="row row-cols-1 row-cols-sm-2 row-cols-md-4 my-2 my-md-4 ps-4"
+          >
             <div class="col">
               <div class="card-product">
                 <img
-                  src="assets/img/products/product-1.webp"
+                  src="assets/img/products/product-5.webp"
                   class="card-img-top img-fluid"
                   alt="..."
                 />
                 <div class="card-product-body">
                   <p class="card-categoria">decoración</p>
-                  <p class="card-titulo">jarrón garra</p>
-                  <p class="card-precio">$ 6.779</p>
+                  <p class="card-titulo">cuadro gato</p>
+                  <p class="card-precio">$ 5.579</p>
                   <button class="button button-terciary">Agregar</button>
                 </div>
               </div>
@@ -258,14 +314,14 @@
             <div class="col">
               <div class="card-product">
                 <img
-                  src="assets/img/products/product-1.webp"
+                  src="assets/img/products/product-6.webp"
                   class="card-img-top img-fluid"
                   alt="..."
                 />
                 <div class="card-product-body">
-                  <p class="card-categoria">decoración</p>
-                  <p class="card-titulo">jarrón garra</p>
-                  <p class="card-precio">$ 6.779</p>
+                  <p class="card-categoria">baño</p>
+                  <p class="card-titulo">dispenser gato</p>
+                  <p class="card-precio">$ 9.779</p>
                   <button class="button button-terciary">Agregar</button>
                 </div>
               </div>
@@ -273,14 +329,29 @@
             <div class="col">
               <div class="card-product">
                 <img
-                  src="assets/img/products/product-1.webp"
+                  src="assets/img/products/product-7.webp"
                   class="card-img-top img-fluid"
                   alt="..."
                 />
                 <div class="card-product-body">
                   <p class="card-categoria">decoración</p>
-                  <p class="card-titulo">jarrón garra</p>
-                  <p class="card-precio">$ 6.779</p>
+                  <p class="card-titulo">ganchos de pared</p>
+                  <p class="card-precio">$ 3.180</p>
+                  <button class="button button-terciary">Agregar</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card-product">
+                <img
+                  src="assets/img/products/product-8.webp"
+                  class="card-img-top img-fluid"
+                  alt="..."
+                />
+                <div class="card-product-body">
+                  <p class="card-categoria">papelería</p>
+                  <p class="card-titulo">cuaderno gato</p>
+                  <p class="card-precio">$ 5.779</p>
                   <button class="button button-terciary">Agregar</button>
                 </div>
               </div>

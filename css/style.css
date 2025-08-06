@@ -209,6 +209,20 @@ a {
 .footer-icon {
   font-size: 22px;
 }
+/*products*/
+.fs-7 {
+  font-size: 14px;
+}
+.products-titulo {
+  font-size: 25px;
+  letter-spacing: 3.2px;
+  text-transform: uppercase;
+}
+.button-precio {
+  color: var(--secondary);
+  background-color: white;
+  border: 1px solid var(--terciary-light);
+}
 @media (max-width: 1200px) {
   .hero-title {
     font-size: 38px;

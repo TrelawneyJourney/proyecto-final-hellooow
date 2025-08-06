@@ -86,6 +86,7 @@
         </div>
       </div>
     </header>
+
     <section class="container">
       <div class="row">
         <div class="col-12">
@@ -100,12 +101,190 @@
           <p>productos</p>
         </div>
       </div>
+
+      <!--main-->
       <div class="row">
-        <div class="col-4 d-flex flex-column">
+        <!--aside-->
+        <div class="col-3 d-flex flex-column border border-danger">
           <p>Filtrar por</p>
+          <!--categorias-->
           <div class="por-categoria">
             <p>por categoría</p>
-            <div class="todos"></div>
+            <!--checks-->
+            <div class="check-por">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="cat-1"
+                /><label class="form-check-label" for="cat-1">Cocina</label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="cat-2"
+                /><label class="form-check-label" for="cat-2">Bazar</label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="cat-3"
+                /><label class="form-check-label" for="cat-3">Accesorios</label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="cat-4"
+                /><label class="form-check-label" for="cat-4">Papelería</label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="cat-5"
+                /><label class="form-check-label" for="cat-5">Baño</label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="cat-6"
+                /><label class="form-check-label" for="cat-6">Decoración</label>
+              </div>
+            </div>
+          </div>
+          <!--para ellos-->
+          <div class="por-ellos">
+            <p>para ellos</p>
+            <!--checks-->
+            <div class="check-por">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="p-1"
+                /><label class="form-check-label" for="p-1">Camas</label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="p-2"
+                /><label class="form-check-label" for="p-2">Collares</label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="p-3"
+                /><label class="form-check-label" for="p-3">Aseo</label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="p-4"
+                /><label class="form-check-label" for="p-4">Ropa</label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="p-5"
+                /><label class="form-check-label" for="p-5">Comederos</label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="p-6"
+                /><label class="form-check-label" for="p-6">Juguetes</label>
+              </div>
+            </div>
+          </div>
+          <!--precio-->
+          <div class="por-precio">
+            <p>por precio</p>
+            <div class="check-por">
+              <div class="input-group mb-2">
+                <input type="number" class="form-control" placeholder="de" />
+                <input type="number" class="form-control" placeholder="hasta" />
+                <button><i class="bi bi-arrow-right-short"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--end aside-->
+        <div class="col-9 d-flex flex-column border border-warning">
+          <div class="d-flex justify-content-end">
+            <i class="bi bi-sort-alpha-down"></i>
+            <p>Ordenar</p>
+          </div>
+          <!----->
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+            <div class="col">
+              <div class="card-product">
+                <img
+                  src="assets/img/products/product-1.webp"
+                  class="card-img-top img-fluid"
+                  alt="..."
+                />
+                <div class="card-product-body">
+                  <p class="card-categoria">decoración</p>
+                  <p class="card-titulo">jarrón garra</p>
+                  <p class="card-precio">$ 6.779</p>
+                  <button class="button button-terciary">Agregar</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card-product">
+                <img
+                  src="assets/img/products/product-1.webp"
+                  class="card-img-top img-fluid"
+                  alt="..."
+                />
+                <div class="card-product-body">
+                  <p class="card-categoria">decoración</p>
+                  <p class="card-titulo">jarrón garra</p>
+                  <p class="card-precio">$ 6.779</p>
+                  <button class="button button-terciary">Agregar</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card-product">
+                <img
+                  src="assets/img/products/product-1.webp"
+                  class="card-img-top img-fluid"
+                  alt="..."
+                />
+                <div class="card-product-body">
+                  <p class="card-categoria">decoración</p>
+                  <p class="card-titulo">jarrón garra</p>
+                  <p class="card-precio">$ 6.779</p>
+                  <button class="button button-terciary">Agregar</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card-product">
+                <img
+                  src="assets/img/products/product-1.webp"
+                  class="card-img-top img-fluid"
+                  alt="..."
+                />
+                <div class="card-product-body">
+                  <p class="card-categoria">decoración</p>
+                  <p class="card-titulo">jarrón garra</p>
+                  <p class="card-precio">$ 6.779</p>
+                  <button class="button button-terciary">Agregar</button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

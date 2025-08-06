@@ -8,6 +8,7 @@
   --primary: #fef3c6;
   --secondary: #404040;
   --terciary: #35495e;
+  --terciary-light: #a1a1a1;
   --acent: #ffd230;
   --primary-font: "Poppins", sans-serif;
 }
@@ -90,6 +91,12 @@ a {
   background-color: white;
   border: 1px solid var(--secondary);
   color: var(--secondary);
+}
+.button-terciary {
+  background-color: white;
+  border: 1px solid var(--terciary-light);
+  color: var(--terciary-light);
+  padding: 15px 50px;
 }
 .espacio {
   height: 0px;

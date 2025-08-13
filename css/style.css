@@ -37,9 +37,14 @@ a {
   padding: 0px 15px;
   color: var(--secondary);
 }
+.menu ul li a:hover {
+  color: var(--acent);
+  border-bottom: 1px solid var(--acent);
+}
 .login {
   font-size: 15px;
   margin: 0px;
+  cursor: pointer;
 }
 .login p {
   margin: 0px;
@@ -86,6 +91,9 @@ a {
   background-color: var(--secondary);
   border: 1px solid var(--secondary);
   color: white;
+}
+.button-primary:hover {
+  background-color: #404040d5;
 }
 .button-secondary {
   background-color: white;
@@ -148,27 +156,46 @@ a {
   letter-spacing: 10px;
   text-transform: uppercase;
 }
-.nuevos-link {
-  color: #737373;
+.nuevos-link,
+.nuevos-link i {
+  color: var(--terciary-light);
   font-size: 16px;
   line-height: 18.988px;
 }
+.nuevos-link:hover {
+  color: var(--secondary);
+}
 /*categorias mas buscadas*/
 .card-categoria {
-  transition: transform 0.3s ease;
+  position: relative;
 }
-.card-categoria:hover {
-  transform: translateY(-5px);
+.card-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  background-color: #fef3c6be;
+  transition: opacity 0.3s ease;
+}
+.card-categoria:hover .card-overlay {
+  opacity: 0.8;
+}
+.card-text {
+  color: var(--secondary);
+  font-size: 30px;
+  font-weight: bold;
 }
 .categoria-titulo {
   font-size: 28px;
   text-transform: uppercase;
   letter-spacing: 5px;
 }
-/*para ellos*/
-.para-container {
-  height: 430px;
+.categorias a:hover {
+  color: var(--acent);
 }
+/*para ellos*/
 .para-title {
   font-size: 35px;
   text-transform: uppercase;
@@ -180,6 +207,7 @@ a {
   letter-spacing: 1px;
 }
 .para-p {
+  max-width: 350px;
   font-size: 15px;
 }
 /*newsletter*/
@@ -208,6 +236,9 @@ a {
 }
 .footer-icon {
   font-size: 22px;
+}
+.footer-icon i:hover {
+  color: var(--acent);
 }
 /*products*/
 .fs-7 {
